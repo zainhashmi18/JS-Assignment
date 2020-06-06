@@ -750,13 +750,13 @@ document.write(large)
 
 // Task No 9
 var arrNum1=[25,85,65,75,88,5];
-var large1=arrNum1.length;
+var small1=arrNum1.length;
 for(var i=0; i<=arrNum1.length;i++){
-    if(arrNum1[i]<large1){
-        large1=arrNum1[i]; 
+    if(arrNum1[i]<small1){
+        small1=arrNum1[i]; 
     }
 }
-document.write(large1)
+document.write(small1)
 
 // Task No 10
 for(var i=5; i<=100; i+=5){
